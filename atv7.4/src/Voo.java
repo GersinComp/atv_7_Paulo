@@ -11,7 +11,7 @@ public class Voo {
         this.data = data;
         this.horario = horario;
         this.numVoo = numVoo;
-        this.maxLugares = 5;
+        this.maxLugares = 100;
         this.lugares = new ArrayList<>(maxLugares);
         for (int i = 0; i < maxLugares; i++) {
             lugares.add("livre");
